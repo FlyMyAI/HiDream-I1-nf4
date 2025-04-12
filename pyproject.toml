@@ -31,7 +31,6 @@ dependencies = [
 [tool.setuptools.packages.find]
 include = ["hdi1*"]
 
-[project.urls]
-Homepage = "https://github.com/hykilpikonna/HiDream-I1-nf4"
-Repository = "https://github.com/hykilpikonna/HiDream-I1-nf4"
-Issues = "https://github.com/hykilpikonna/HiDream-I1-nf4/issues"
+[build-system]
+requires = ["setuptools>=61", "wheel", "torch>=2.5.1"]
+build-backend = "setuptools.build_meta"
