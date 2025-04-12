@@ -4,7 +4,7 @@ version = "1.0.3"
 description = "HiDream-I1 is a new open-source image generative foundation model with 17B parameters that achieves state-of-the-art image generation quality within seconds."
 readme = "README.md"
 requires-python = ">=3.10"
-setup_requires=["torch>=2.5.1"]
+
 dependencies = [
     "accelerate>=1.2.1",
     "bitsandbytes>=0.45.5",
@@ -31,3 +31,11 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 include = ["hdi1*"]
+
+[build-system]
+requires = [
+    "setuptools>=61",
+    "wheel",
+    "torch>=2.5.1"
+]
+build-backend = "setuptools.build_meta"
