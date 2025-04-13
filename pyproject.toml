@@ -28,6 +28,7 @@ dependencies = [
     "torchvision>=0.20.1",
     "transformers>=4.47.1",
     "huggingface_hub>=0.22.2",
+    "tqdm>=4.27.0",
 ]
 
 [tool.setuptools.packages.find]
