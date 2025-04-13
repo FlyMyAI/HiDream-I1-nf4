@@ -27,6 +27,7 @@ dependencies = [
     "flash-attn>=2.7.0",
     "torchvision>=0.20.1",
     "transformers>=4.47.1",
+    "huggingface_hub>=0.22.2",
 ]
 
 [tool.setuptools.packages.find]
