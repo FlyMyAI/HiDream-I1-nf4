@@ -4,6 +4,5 @@ tmp
 *.jpg
 *.png
 *.tar
-*.txt
 *.egg-info
 dist/
